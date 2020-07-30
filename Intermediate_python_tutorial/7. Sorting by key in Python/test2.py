@@ -5,6 +5,7 @@ record = [{'name': 'Nik', 'score': 9, 'age': 18},
 
 
 
+#dictionary key로 정렬 가능
 from operator import itemgetter
 
 print( sorted(record, key = itemgetter('score', 'age')) )
